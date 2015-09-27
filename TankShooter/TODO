@@ -1,0 +1,38 @@
+
+TODO.....have model send state information accorss network?
+
+get and set state strings?   sounds gooooooooooooood.  
+
+
+
+Easily getting swampped by the traffic.  So, we will create one message string.
+
+Who reads the message string? The model does.  So, we will re-write the
+model code to read a message string.
+
+A message handler has add message methods and a thread that sleeps, then 
+transmits.   It has a socket for commands, and an array of strings.  Should 
+have max size.
+
+
+
+
+fish guts is good.
+but, I think in regular mode, my tanks don't start in diff places
+
+
+------ in network -------
+
+1) seems like a disconnect, at the start, not in the same place
+2) not in the same place when move or die
+3) remote player doesn't seem to move well
+5) bullets don't die
+
+-------------
+print host messages, and client recpts....
+
+seems like not getting messages....new thread for host to listen.
+reduced for client. 
+
+could be getting spammed by threads?   Put a delay in sendig..worked better...
+still some skips.....what about delay in clients.....need to package our messages......
